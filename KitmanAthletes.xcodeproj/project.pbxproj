@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268BF03C2E51F438006C6AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268BF03B2E51F438006C6AB4 /* LaunchScreen.storyboard */; };
+		268BF03D2E51F438006C6AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268BF03B2E51F438006C6AB4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268D972E2E50B10A000B1B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268D97152E50B108000B1B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268D971C2E50B108000B1B07;
+			remoteInfo = KitmanAthletes;
+		};
+		268D97382E50B10A000B1B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268D97152E50B108000B1B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268D971C2E50B108000B1B07;
+			remoteInfo = KitmanAthletes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268BF03B2E51F438006C6AB4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268D971D2E50B108000B1B07 /* KitmanAthletes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitmanAthletes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268D972D2E50B10A000B1B07 /* KitmanAthletesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitmanAthletesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268D97372E50B10A000B1B07 /* KitmanAthletesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitmanAthletesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		268BEFAB2E51DEA6006C6AB4 /* Exceptions for "KitmanAthletes" folder in "KitmanAthletesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIModels/Athlete.swift,
+				APIModels/Login.swift,
+				APIModels/Squad.swift,
+				APIServices/AthletesService.swift,
+				APIServices/LoginService.swift,
+				APIServices/SeviceUtility.swift,
+				APIServices/SquadsService.swift,
+				"UI/Atheletes/AthletesList&DetailViews/AtheletsDetailView.swift",
+				"UI/Atheletes/AthletesList&DetailViews/AtheletsSectionLazyStackView.swift",
+				"UI/Atheletes/AthletesList&DetailViews/AthletesListView.swift",
+				UI/Atheletes/AthletesListSubViews/AthleteListItemView.swift,
+				UI/Atheletes/AthletesListSubViews/AthletesImageView.swift,
+				UI/Atheletes/AthletesListSubViews/AthletesInfoViews.swift,
+				UI/KitmanAthletesApp.swift,
+				UI/KitmanLab.png,
+				UI/LoginViews/LoginView.swift,
+				"UI/UI Utilities/ActivityIndicator.swift",
+				"UI/UI Utilities/AttributedText.swift",
+				"UI/UI Utilities/ListErrorView.swift",
+				"UI/UI Utilities/LoadingViews.swift",
+				"UI/UI Utilities/RefreshableScrollView.swift",
+				"UI/UI Utilities/StyleManager.swift",
+				"UI/UI Utilities/UI Extension/String+Extension.swift",
+				ViewModel/AthleteVM/AthleteListBaseViewModel.swift,
+				ViewModel/AthleteVM/AthleteListViewModel.swift,
+				ViewModel/LoginVM/LoginViewModel.swift,
+				ViewModel/SquadVM/SquadListBaseViewModel.swift,
+				ViewModel/SquadVM/SquadListViewModel.swift,
+			);
+			target = 268D972C2E50B10A000B1B07 /* KitmanAthletesTests */;
+		};
+		268BEFAC2E51DEA6006C6AB4 /* Exceptions for "KitmanAthletes" folder in "KitmanAthletesUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIServices/AthletesService.swift,
+				APIServices/LoginService.swift,
+				APIServices/SeviceUtility.swift,
+				APIServices/SquadsService.swift,
+			);
+			target = 268D97362E50B10A000B1B07 /* KitmanAthletesUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		268D971F2E50B108000B1B07 /* KitmanAthletes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				268BEFAB2E51DEA6006C6AB4 /* Exceptions for "KitmanAthletes" folder in "KitmanAthletesTests" target */,
+				268BEFAC2E51DEA6006C6AB4 /* Exceptions for "KitmanAthletes" folder in "KitmanAthletesUITests" target */,
+			);
+			path = KitmanAthletes;
+			sourceTree = "<group>";
+		};
+		268D97302E50B10A000B1B07 /* KitmanAthletesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KitmanAthletesTests;
+			sourceTree = "<group>";
+		};
+		268D973A2E50B10A000B1B07 /* KitmanAthletesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KitmanAthletesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268D971A2E50B108000B1B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268D972A2E50B10A000B1B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268D97342E50B10A000B1B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268D97142E50B108000B1B07 = {
+			isa = PBXGroup;
+			children = (
+				268BF03B2E51F438006C6AB4 /* LaunchScreen.storyboard */,
+				268D971F2E50B108000B1B07 /* KitmanAthletes */,
+				268D97302E50B10A000B1B07 /* KitmanAthletesTests */,
+				268D973A2E50B10A000B1B07 /* KitmanAthletesUITests */,
+				268D971E2E50B108000B1B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268D971E2E50B108000B1B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268D971D2E50B108000B1B07 /* KitmanAthletes.app */,
+				268D972D2E50B10A000B1B07 /* KitmanAthletesTests.xctest */,
+				268D97372E50B10A000B1B07 /* KitmanAthletesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268D971C2E50B108000B1B07 /* KitmanAthletes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268D97412E50B10A000B1B07 /* Build configuration list for PBXNativeTarget "KitmanAthletes" */;
+			buildPhases = (
+				268D97192E50B108000B1B07 /* Sources */,
+				268D971A2E50B108000B1B07 /* Frameworks */,
+				268D971B2E50B108000B1B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				268D971F2E50B108000B1B07 /* KitmanAthletes */,
+			);
+			name = KitmanAthletes;
+			packageProductDependencies = (
+			);
+			productName = KitmanAthletes;
+			productReference = 268D971D2E50B108000B1B07 /* KitmanAthletes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		268D972C2E50B10A000B1B07 /* KitmanAthletesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268D97442E50B10A000B1B07 /* Build configuration list for PBXNativeTarget "KitmanAthletesTests" */;
+			buildPhases = (
+				268D97292E50B10A000B1B07 /* Sources */,
+				268D972A2E50B10A000B1B07 /* Frameworks */,
+				268D972B2E50B10A000B1B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268D972F2E50B10A000B1B07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				268D97302E50B10A000B1B07 /* KitmanAthletesTests */,
+			);
+			name = KitmanAthletesTests;
+			packageProductDependencies = (
+			);
+			productName = KitmanAthletesTests;
+			productReference = 268D972D2E50B10A000B1B07 /* KitmanAthletesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268D97362E50B10A000B1B07 /* KitmanAthletesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268D97472E50B10A000B1B07 /* Build configuration list for PBXNativeTarget "KitmanAthletesUITests" */;
+			buildPhases = (
+				268D97332E50B10A000B1B07 /* Sources */,
+				268D97342E50B10A000B1B07 /* Frameworks */,
+				268D97352E50B10A000B1B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268D97392E50B10A000B1B07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				268D973A2E50B10A000B1B07 /* KitmanAthletesUITests */,
+			);
+			name = KitmanAthletesUITests;
+			packageProductDependencies = (
+			);
+			productName = KitmanAthletesUITests;
+			productReference = 268D97372E50B10A000B1B07 /* KitmanAthletesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268D97152E50B108000B1B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					268D971C2E50B108000B1B07 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					268D972C2E50B10A000B1B07 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 268D971C2E50B108000B1B07;
+					};
+					268D97362E50B10A000B1B07 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 268D971C2E50B108000B1B07;
+					};
+				};
+			};
+			buildConfigurationList = 268D97182E50B108000B1B07 /* Build configuration list for PBXProject "KitmanAthletes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268D97142E50B108000B1B07;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 268D971E2E50B108000B1B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268D971C2E50B108000B1B07 /* KitmanAthletes */,
+				268D972C2E50B10A000B1B07 /* KitmanAthletesTests */,
+				268D97362E50B10A000B1B07 /* KitmanAthletesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268D971B2E50B108000B1B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BF03C2E51F438006C6AB4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268D972B2E50B10A000B1B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BF03D2E51F438006C6AB4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268D97352E50B10A000B1B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268D97192E50B108000B1B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268D97292E50B10A000B1B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268D97332E50B10A000B1B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268D972F2E50B10A000B1B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268D971C2E50B108000B1B07 /* KitmanAthletes */;
+			targetProxy = 268D972E2E50B10A000B1B07 /* PBXContainerItemProxy */;
+		};
+		268D97392E50B10A000B1B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268D971C2E50B108000B1B07 /* KitmanAthletes */;
+			targetProxy = 268D97382E50B10A000B1B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		268D973F2E50B10A000B1B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		268D97402E50B10A000B1B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268D97422E50B10A000B1B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitmanAthletes/Preview Content\"";
+				DEVELOPMENT_TEAM = 34X7FPB8T6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Athletes.Kitman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268D97432E50B10A000B1B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitmanAthletes/Preview Content\"";
+				DEVELOPMENT_TEAM = 34X7FPB8T6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Athletes.Kitman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		268D97452E50B10A000B1B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34X7FPB8T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyeapps.Athletes.KitmanAthletesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitmanAthletes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KitmanAthletes";
+			};
+			name = Debug;
+		};
+		268D97462E50B10A000B1B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34X7FPB8T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyeapps.Athletes.KitmanAthletesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitmanAthletes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KitmanAthletes";
+			};
+			name = Release;
+		};
+		268D97482E50B10A000B1B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34X7FPB8T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyeapps.Athletes.KitmanAthletesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KitmanAthletes;
+			};
+			name = Debug;
+		};
+		268D97492E50B10A000B1B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34X7FPB8T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyeapps.Athletes.KitmanAthletesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KitmanAthletes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268D97182E50B108000B1B07 /* Build configuration list for PBXProject "KitmanAthletes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268D973F2E50B10A000B1B07 /* Debug */,
+				268D97402E50B10A000B1B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268D97412E50B10A000B1B07 /* Build configuration list for PBXNativeTarget "KitmanAthletes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268D97422E50B10A000B1B07 /* Debug */,
+				268D97432E50B10A000B1B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268D97442E50B10A000B1B07 /* Build configuration list for PBXNativeTarget "KitmanAthletesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268D97452E50B10A000B1B07 /* Debug */,
+				268D97462E50B10A000B1B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268D97472E50B10A000B1B07 /* Build configuration list for PBXNativeTarget "KitmanAthletesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268D97482E50B10A000B1B07 /* Debug */,
+				268D97492E50B10A000B1B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268D97152E50B108000B1B07 /* Project object */;
+}
