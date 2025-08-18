@@ -13,6 +13,7 @@ struct AtheletsSectionLazyStackView<ViewModel>: View where ViewModel: AthleteLis
 
     var body: some View {
         GeometryReader { geometry in
+            
             ZStack{
                 RefreshableScrollView(onRefresh: { done in
                     viewModel.refreshOnPull{ _,_  in

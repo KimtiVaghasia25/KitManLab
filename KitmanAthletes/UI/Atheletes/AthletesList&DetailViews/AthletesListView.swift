@@ -26,8 +26,12 @@ struct AthletesListView<ViewModel>: View where ViewModel: AthleteListViewModel {
             ListLoadingView(loadingStatus: "Loading...", loadingDescription: "")
             
         case .loaded:
+            NavigationStack {
+                Text("Searching for \(athleteListViewModel.searchText)")
+                    .searchable(text: $athleteListViewModel.searchText, prompt: "Look for something")
+                   }
             AtheletsSectionLazyStackView(viewModel: athleteListViewModel)
-            
+          
         case .failed(_):
             ListErrorView(error: NSError(domain: "", code: 0, userInfo: [
                 NSLocalizedDescriptionKey: "There was an error loading list."]), retryAction: { })
