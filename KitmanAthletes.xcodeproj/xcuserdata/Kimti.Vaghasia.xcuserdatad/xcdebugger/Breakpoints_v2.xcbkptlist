@@ -34,36 +34,6 @@
             endingLineNumber = "16"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "54F7C8D2-883F-4EEB-AC3F-362CFF40A739 - 749c0d4d35775a4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KitmanAthletes.AthletesInfoViews.body.getter : some"
-                  moduleName = "KitmanAthletes.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Kimti.Vaghasia/Desktop/KitmanAthletes/KitmanAthletes/UI/AthletesInfoViews.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16">
-               </Location>
-               <Location
-                  uuid = "54F7C8D2-883F-4EEB-AC3F-362CFF40A739 - 335277769822423d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in KitmanAthletes.AthletesInfoViews.body.getter : some"
-                  moduleName = "KitmanAthletes.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Kimti.Vaghasia/Desktop/KitmanAthletes/KitmanAthletes/UI/AthletesInfoViews.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -92,8 +62,8 @@
             filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "247"
-            endingLineNumber = "247"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
             landmarkName = "makeRequest(request:responseType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -108,8 +78,8 @@
             filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
             landmarkName = "makeRequest(request:responseType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -124,8 +94,8 @@
             filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "268"
-            endingLineNumber = "268"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "makeRequest(request:responseType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -140,8 +110,8 @@
             filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
             landmarkName = "makeRequest(request:responseType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -252,8 +222,8 @@
             filePath = "KitmanAthletes/ViewModel/AthleteVM/AthleteListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "fetchAthletes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -357,65 +327,205 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "968A2996-2C3A-4F40-8615-CC1E4D145813"
+            uuid = "E7F18443-AA98-4038-8680-E9874CF96831"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KitmanAthletes/ViewModel/AthleteVM/AthleteListViewModel.swift"
+            filePath = "KitmanAthletes/APIServices/Status.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "filterBySearch(searchText:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "79532A3D-62B3-4D15-8765-6459B52B6488"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KitmanAthletes/ViewModel/AthleteVM/AthleteListViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "filterBySearch(searchText:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1C274866-FCDB-4564-83B7-7F93018C2CD8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KitmanAthletes/ViewModel/AthleteVM/AthleteListViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "fileteredsectionedList"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "endPoint"
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1ECF22AA-D9CB-4481-99C5-0C69217D3780"
+            uuid = "3D606E58-BF88-43C5-8C22-B58962E6A44C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "makeRequest(request:responseType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD68782A-7B37-4577-B3CD-EE85FF08E2B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "makeRequest(request:responseType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "975A9406-2E7B-4991-B177-54BAF4122DFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/APIServices/SeviceUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "makeRequest(request:responseType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F05DBF20-B2B3-40F0-9A94-DF45BBB34CE9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KitmanAthletes/ViewModel/AthleteVM/AthleteListViewModel.swift"
+            filePath = "KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "fileteredsectionedList"
-            landmarkType = "24">
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "processSquadsForSelectedAthlete()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "872E94C5-8702-4570-A2EF-5DC5F97F611E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "processSquadsForSelectedAthlete()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "872E94C5-8702-4570-A2EF-5DC5F97F611E - a0e9fa2e9881157a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KitmanAthletes.StatusViewModel.processSquadsForSelectedAthlete() -&gt; ()"
+                  moduleName = "KitmanAthletes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kimti.Vaghasia/KitManLab/KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "872E94C5-8702-4570-A2EF-5DC5F97F611E - 4a154b1b5e19b912"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KitmanAthletes.AtheletStatus) -&gt; Swift.Bool in KitmanAthletes.StatusViewModel.processSquadsForSelectedAthlete() -&gt; ()"
+                  moduleName = "KitmanAthletes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kimti.Vaghasia/KitManLab/KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC141A81-8283-4F8B-8749-61DF78D7ED49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F2A7C8F-256A-4AA3-9396-0ADC82D2E1E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B72649EB-67BC-4932-980E-087FD361F4AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "processSquadsForSelectedAthlete()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B72649EB-67BC-4932-980E-087FD361F4AA - a0e9fa2e9881157a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KitmanAthletes.StatusViewModel.processSquadsForSelectedAthlete() -&gt; ()"
+                  moduleName = "KitmanAthletes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kimti.Vaghasia/KitManLab/KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "B72649EB-67BC-4932-980E-087FD361F4AA - 4a154b1b5e19b912"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KitmanAthletes.AtheletStatus) -&gt; Swift.Bool in KitmanAthletes.StatusViewModel.processSquadsForSelectedAthlete() -&gt; ()"
+                  moduleName = "KitmanAthletes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kimti.Vaghasia/KitManLab/KitmanAthletes/ViewModel/Statuses/StatusViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
