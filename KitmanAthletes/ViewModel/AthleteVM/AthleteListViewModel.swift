@@ -12,14 +12,7 @@ class AthleteListViewModel: NSObject, AthleteListBaseViewModel {
     @objc var listType: ListType = .FlatList
     @Published var state: ListState = .idle
 
-    var fileteredsectionedList: [AthleteListResultsSectionData] {
-        if !searchText.isEmpty {
-            filterBySearch(searchText: searchText)
-        }
-        return sectionedList
-    }
-    @Published var sectionedList = [AthleteListResultsSectionData]()
-
+    var sectionedList = [AthleteListResultsSectionData]()
     var listLoadingStatus =  ListLoadingStatus()
     
     private var athletesService : AthletesService
@@ -27,7 +20,6 @@ class AthleteListViewModel: NSObject, AthleteListBaseViewModel {
     private var athletes = [Athlete]()
 
     private var isLoading : Bool = false
-    @Published var searchText = ""
 
     override init() {
         self.athletesService = AthletesService(apiClient: APIClient())
@@ -51,6 +43,8 @@ class AthleteListViewModel: NSObject, AthleteListBaseViewModel {
                             self.athletes = resultAthletes
                             self.state = .loaded
                             processSection(athletes: self.athletes)
+                            
+                            StatusViewModel(athelete: athletes.first!, statusService: StatusService(apiClient: APIClient())).getStatus()
                         }
                     }
                 }
@@ -69,21 +63,8 @@ class AthleteListViewModel: NSObject, AthleteListBaseViewModel {
             let section = AthleteListResultsSectionData(key: athlete.userName ?? "", displayValue: athObj.athlete.userName ?? "", items: [athObj])
             sectionedList.append(section)
         }
-        
-        sectionedList = sectionedList.sorted { $0.displayValue > $1.displayValue }
-
-        //        filterBySearch(searchText: "jdo")
-        
     }
     
-    func filterBySearch(searchText: String) {
-//        if let firstA = sectionedList.first(where: {$0.displayValue.contains(searchText)}) {
-//            sectionedList.append(firstA)
-//        }
-
-        sectionedList = sectionedList.filter({$0.displayValue.contains(searchText)})
-        
-    }
     
     
     func refreshOnPull(completion: (([Athlete], Error?) -> ()))  {

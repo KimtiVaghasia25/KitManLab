@@ -227,7 +227,7 @@ protocol APIClientProtocol {
                              
                         if let data = data {
                             let responseString = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
-//                            print("ResponseString>>>>: \(String(describing: responseString))")
+                            print("ResponseString>>>>: \(String(describing: responseString))")
                         }
                         switch httpResponse.statusCode {
                         
@@ -241,7 +241,9 @@ protocol APIClientProtocol {
                                 }
                                                                 
                                 let jsonDecoder = JSONDecoder()
-//                                jsonDecoder.keyDecodingStrategy = .convertToLowerCamelCase
+                                if let urlString = urlString, urlString.contains("statuses.json") {
+                                    jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+                                }
                                 let results = try jsonDecoder.decode(responseType, from: data)
                                 
                                 let response = ServiceReponse(response: results, error: error)
